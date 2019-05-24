@@ -1,3 +1,7 @@
+.login h1 {
+  text-align: center;
+}
+
 .loginForm, .createAccountForm {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -8,5 +12,14 @@
           flex-direction: column;
   width: 15em;
   margin: 0 auto;
+}
+
+.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
 }
 /*# sourceMappingURL=App.css.map */

@@ -1,7 +1,17 @@
+.login{
+    h1{
+        text-align: center;
+    }
+}
 .loginForm,.createAccountForm{
     display: flex;
     flex-direction: column;
     width: 15em;
     margin: 0 auto;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
 }
 

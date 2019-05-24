@@ -6,6 +6,7 @@ export default class Header extends Component{
         return (
             <>
             <div className="header">
+            <NavLink to="/" className="logobtn">eVal Logo</NavLink>
             <NavLink to="/login" className="logbtn">LogIn/SignUp</NavLink>
             </div>
             </>

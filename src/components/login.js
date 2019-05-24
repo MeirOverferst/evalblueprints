@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
+import { NavLink, Route } from 'react-router-dom';
 
-export default class Login extends Component{
+export default class LoginPgae extends Component{
     render(){
         return (
             <>
@@ -25,6 +26,7 @@ export default class Login extends Component{
             <input placeholder="password"/>
             <button>Submit</button>
             </form>
+            <NavLink to="/creation" className="logbtn">CreationTempLink</NavLink>
           </div>
             </>
             )
